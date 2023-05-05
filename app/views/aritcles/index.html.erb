@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Aritcles</h1>
+
+<div id="aritcles">
+  <% @aritcles.each do |aritcle| %>
+    <%= render aritcle %>
+    <p>
+      <%= link_to "Show this aritcle", aritcle %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New aritcle", new_aritcle_path %>

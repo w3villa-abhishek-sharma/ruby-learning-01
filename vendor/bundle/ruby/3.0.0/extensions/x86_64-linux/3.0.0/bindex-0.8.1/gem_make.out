@@ -1,0 +1,15 @@
+current directory: /home/abhishek/Desktop/Training/Ruby on Rails/project_01/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20230505-113853-spt3ce.rb extconf.rb
+creating Makefile
+
+current directory: /home/abhishek/Desktop/Training/Ruby on Rails/project_01/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= clean
+
+current directory: /home/abhishek/Desktop/Training/Ruby on Rails/project_01/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\=
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/abhishek/Desktop/Training/Ruby on Rails/project_01/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20230505-113853-p9lo7q/skiptrace/internal

@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @aritcle %>
+
+<div>
+  <%= link_to "Edit this aritcle", edit_aritcle_path(@aritcle) %> |
+  <%= link_to "Back to aritcles", aritcles_path %>
+
+  <%= button_to "Destroy this aritcle", @aritcle, method: :delete %>
+</div>
